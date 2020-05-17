@@ -6,10 +6,10 @@ public class Client {
 		//get an object of Circle and call its draw method.
 		Shape shape1 = new CircleFactory().getShape();
 		shape1.draw();
-		//get an object of Circle and call its draw method.
+		//get an object of Rectangle and call its draw method.
 		Shape shape2 = new RectangleFactory().getShape();
 		shape2.draw();
-		//get an object of Circle and call its draw method.
+		//get an object of Square and call its draw method.
 		Shape shape3 = new SquareFactory().getShape();
 		shape3.draw();
 	}
